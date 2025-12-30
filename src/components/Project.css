@@ -1,0 +1,60 @@
+#project-link {
+    color: black;
+}
+
+#project-main-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5fr 3fr;
+}
+
+#project-main-container:hover {
+    background-color: lightgray;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#photo-container {
+    /* background: url("images/stocks.jpg"); */
+    background-size: cover; /* Key property */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+#project-text-container {
+    border: 1px solid lightgray;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    padding-bottom: 2%;
+}
+
+#project-title-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#icon-div {
+    display: flex;
+    justify-content: center;
+}
+
+.title-icon {
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.project-title {
+    font-family: "Inter", sans-serif;
+    margin-top: -17px;
+}
+
+.skill-label {
+    margin-left: 2%;
+    border-radius: 10px;
+    color: white;
+    font-size: smaller;
+    padding: 3.5px;
+}
