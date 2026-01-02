@@ -46,6 +46,7 @@ body {
   grid-template-rows: auto 1fr;
   margin: 0;
   background-color: #EDE8F5;
+  color: black;
 }
 
 h1 {

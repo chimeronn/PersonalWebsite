@@ -6,6 +6,8 @@ import MusicLocker from './components/MusicLocker.jsx'
 import PopGenetics from './components/PopGenetics.jsx'
 import ParticleFilter from './components/ParticleFilter.jsx'
 import LogisticRegression from './components/LogisticRegression.jsx'
+import Word2Vec from './components/Word2Vec.jsx'
+import SalesForecast from './components/SalesForecast.jsx'
 import {FaLinkedin, FaGithub, FaEnvelope, FaFile, FaFolderOpen, FaMedium} from 'react-icons/fa'
 
 
@@ -105,6 +107,13 @@ function MainPage() {
                         <div></div>
                         <div id="project2-container">
                             <LogisticRegression></LogisticRegression>
+                        </div>
+                        <div id="project1-container">
+                            <Word2Vec></Word2Vec>
+                        </div>
+                        <div></div>
+                        <div id="project2-container">
+                            <SalesForecast></SalesForecast>
                         </div>
                     </div>
                 </div>
