@@ -8,6 +8,7 @@ import ParticleFilter from './components/ParticleFilter.jsx'
 import LogisticRegression from './components/LogisticRegression.jsx'
 import Word2Vec from './components/Word2Vec.jsx'
 import SalesForecast from './components/SalesForecast.jsx'
+import PokeBot from './components/PokeBot.jsx'
 import {FaLinkedin, FaGithub, FaEnvelope, FaFile, FaFolderOpen, FaMedium} from 'react-icons/fa'
 
 
@@ -115,6 +116,9 @@ function MainPage() {
                         <div id="project2-container">
                             <SalesForecast></SalesForecast>
                         </div>
+                        <div id="project1-container">
+                            <PokeBot></PokeBot>
+                        </div>
                     </div>
                 </div>
                 <div id="col3">
@@ -138,6 +142,7 @@ function MainPage() {
                             <span className="interest-label" style={{backgroundColor: "lightgray"}}>Autonomous Navigation</span>
                             <span className="interest-label" style={{backgroundColor: "lightgray"}}>Computer Vision</span>
                             <span className="interest-label" style={{backgroundColor: "lightgray"}}>Classification Tasks</span>
+                            <span className="interest-label" style={{backgroundColor: "lightgray"}}>Game Theory</span>
                         </div>
                     </div>
                 </div>
